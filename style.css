@@ -1,0 +1,69 @@
+body{ /*BACKGROUND*/
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .nav{ /*Vertical bar*/
+    width: 100%;
+    background: #000033;
+    height: 80px;
+  }
+  ul{ /*Margin sa Vertical bar*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  ul li { /*Vertical ang text*/
+    float: left;
+    margin-top: 20px;
+  }
+  ul li a{ /*spacing sa text, kuhaan ug underline, font and all*/
+    width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  .active, nav1 ul li:hover /*active sa green ig asa na asign*/
+  {
+    background: #2bab0d;
+    border-radius: 3px;
+  }
+  a:hover{ /*Active Color green sa horizontal*/
+    background: #669900;
+  }
+  ul li ul{ /*Color background sa horizontal*/
+    background: #000033;
+  }
+  ul li ul li { /*Horizontal ang text*/
+    float: none;
+  }
+  ul li ul{ /*hide ang sulod sa horizontal*/
+    display: none;
+  }
+  ul li:hover ul{ /*makita ang text sa horizon*/
+    display: block;
+  }
+  .container,h1{
+      text-align: justify;
+      text-indent: 20px;
+  }
+  .border{
+      width: 550px;
+      height: 500px;
+      background-color: gray;
+      margin:  20px auto;
+      border-radius: 100;
+      border: 3px solid pink;
+  }
+  img{
+      width: 500px;
+      height: 200px;
+      border-radius: 80px; 
+    }
